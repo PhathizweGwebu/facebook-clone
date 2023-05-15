@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #067cf1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 5% ;
+    
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 45px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+#mySearch {
+    border-radius: 25px;
+    padding: 2px;
+    border: 0;
+    outline: none;
+}
+
+/*#profile-pic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}*/
+
+.icons{
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    width: 50px;
+    
+}
+
+.search-bar {
+    margin-right: 15px;
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 60px;
+    height: 25px;
+}
+
+.search-bar input {
+    background-color: white;
+    flex: 1;
+    border: 0;
+    outline: none;
+    color: #cac7ff;
+}
+
+.search-bar button img {
+    width: 15px;
+    color: black;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    background: white;
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+
+
+::placeholder(){
+    color: black;
+}
+
+
+/*<img class="search-bar" id="profile-pic" src="/images/profile-pic.png" alt="profile-pic">*/
