@@ -1,9 +1,3 @@
 # Hi
-
-# Hello
-
-
-# hi
-
-# Bye
+A tutorial project of a social media website meta (former facebook)
 
